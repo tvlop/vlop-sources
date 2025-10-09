@@ -8,7 +8,7 @@
   "showUrlPattern": "tmdb-tv-{id}/{season}/{episode}",
   "supportsMovies": true,
   "supportsShows": true,
-  "quality": "FHD",
+  "quality": "4K",
   "isActive": true,
   "priority": 0,
   "allowAllDomains": true,
