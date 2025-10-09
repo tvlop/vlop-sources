@@ -1,0 +1,20 @@
+{
+  "id": "vidsrc-me",
+  "name": "VidSrc.me",
+  "type": "universal",
+  "baseUrl": "https://vidsrc.me/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie?tmdb={id}",
+  "showUrlPattern": "tv?tmdb={id}&season={season}&episode={episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 10,
+  "hasAds": false,
+  "isPremium": false,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

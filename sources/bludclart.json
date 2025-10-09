@@ -1,0 +1,19 @@
+{
+  "id": "bludclart-server",
+  "name": "Bludclart server",
+  "type": "universal",
+  "baseUrl": "https://watch.bludclart.com",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}/watch",
+  "showUrlPattern": "tv/{id}/watch?season={season}&episode={episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 3,
+  "hasAds": false,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

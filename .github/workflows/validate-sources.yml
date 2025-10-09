@@ -1,0 +1,45 @@
+name: check sources
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: check json files
+      run: |
+        for file in sources/*.json; do
+          if [ -f "$file" ]; then
+            echo "checking $file (⌐■_■)"
+            python -m json.tool "$file" > /dev/null
+            if [ $? -eq 0 ]; then
+              echo "✓ $file looks good (★‿★)"
+            else
+              echo "✗ $file is broken (ಥ﹏ಥ)"
+              exit 1
+            fi
+          fi
+        done
+        
+    - name: check required stuff
+      run: |
+        for file in sources/*.json; do
+          if [ -f "$file" ]; then
+            echo "checking fields in $file (ง°ل͜°)ง"
+            required_fields=("id" "name" "type" "baseUrl" "supportsMovies" "supportsShows" "quality" "isActive" "priority")
+            for field in "${required_fields[@]}"; do
+              if ! grep -q "\"$field\"" "$file"; then
+                echo "✗ missing $field in $file (╯°□°）╯"
+                exit 1
+              fi
+            done
+            echo "✓ all fields present (≧◡≦)"
+          fi
+        done

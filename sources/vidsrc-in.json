@@ -1,0 +1,20 @@
+{
+  "id": "vidsrc-in",
+  "name": "VidSrc.in",
+  "type": "universal",
+  "baseUrl": "https://vidsrc.in/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 11,
+  "hasAds": false,
+  "isPremium": false,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

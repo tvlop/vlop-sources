@@ -1,0 +1,19 @@
+{
+  "id": "vidsrc-cx",
+  "name": "VidSrc.cx",
+  "type": "universal",
+  "baseUrl": "https://vidsrc.cx/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 13,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mappletv",
+  "name": "MappleTV",
+  "type": "universal",
+  "baseUrl": "https://mappletv.uk/watch",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}-{season}-{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "HD",
+  "isActive": true,
+  "priority": 6,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

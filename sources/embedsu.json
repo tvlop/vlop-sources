@@ -1,0 +1,19 @@
+{
+  "id": "embedsu",
+  "name": "EmbedSu",
+  "type": "universal",
+  "baseUrl": "https://embedsu.com/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "HD",
+  "isActive": true,
+  "priority": 12,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

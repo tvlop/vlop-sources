@@ -1,0 +1,16 @@
+{
+  "id": "pstream",
+  "name": "pstream",
+  "type": "universal",
+  "baseUrl": "https://pstream.mov/media",
+  "urlPattern": "tmdb-{type}-{id}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 5,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

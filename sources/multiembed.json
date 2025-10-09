@@ -1,0 +1,19 @@
+{
+  "id": "multiembed",
+  "name": "MultiEmbed",
+  "type": "universal",
+  "baseUrl": "https://multiembed.mov",
+  "urlPattern": "",
+  "movieUrlPattern": "directstream.php?video_id={id}&tmdb=1",
+  "showUrlPattern": "directstream.php?video_id={id}&tmdb=1&s={season}&e={episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 8,
+  "hasAds": false,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

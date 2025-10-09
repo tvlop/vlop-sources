@@ -1,0 +1,23 @@
+{
+  "id": "your-source-id",
+  "name": "Your Source Name",
+  "type": "universal",
+  "baseUrl": "https://your-source.com/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "headers": {
+    "referer": "https://your-source.com/",
+    "origin": "https://your-source.com"
+  },
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 10,
+  "hasAds": false,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

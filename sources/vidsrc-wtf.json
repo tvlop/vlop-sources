@@ -1,0 +1,19 @@
+{
+  "id": "vidsrc-wtf",
+  "name": "VidSrc.wtf",
+  "type": "universal",
+  "baseUrl": "https://vidsrc.wtf/api/4",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/?id={id}",
+  "showUrlPattern": "tv/?id={id}&s={season}&e={episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 3,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

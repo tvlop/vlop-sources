@@ -1,0 +1,23 @@
+{
+  "id": "vidsrc-comet",
+  "name": "VidSrc Comet",
+  "type": "universal",
+  "baseUrl": "https://vidsrc.vip/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "headers": {
+    "referer": "https://vidsrc.vip/",
+    "origin": "https://vidsrc.vip"
+  },
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 8,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

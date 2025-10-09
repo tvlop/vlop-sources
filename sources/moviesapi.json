@@ -1,0 +1,19 @@
+{
+  "id": "moviesapi",
+  "name": "MoviesAPI",
+  "type": "universal",
+  "baseUrl": "https://moviesapi.club",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}-{season}-{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "HD",
+  "isActive": true,
+  "priority": 14,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}

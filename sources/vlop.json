@@ -1,0 +1,19 @@
+{
+  "id": "vlop",
+  "name": "Vlop",
+  "type": "universal",
+  "baseUrl": "https://iframe.vlop.fun/media",
+  "urlPattern": "tmdb-{type}-{id}",
+  "movieUrlPattern": "tmdb-movie-{id}",
+  "showUrlPattern": "tmdb-tv-{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 0,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "isPremium": true,
+  "allowImages": true,
+  "allowScripts": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "autoembed",
+  "name": "AutoEmbed",
+  "type": "universal",
+  "baseUrl": "https://player.autoembed.cc/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "HD",
+  "isActive": true,
+  "priority": 4,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}
