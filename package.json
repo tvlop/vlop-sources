@@ -1,7 +1,7 @@
 {
   "name": "vlop-sources",
   "version": "1.0.0",
-  "description": "community-driven source collection for vlop streaming",
+  "description": "Vlop sources ★‿★",
   "main": "index.js",
   "scripts": {
     "validate": "node scripts/validate.js",
@@ -16,7 +16,7 @@
     "embed",
     "provider"
   ],
-  "author": "vlop community",
+  "author": "vlop",
   "license": "MIT",
   "files": [
     "sources/",
@@ -26,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vlop-community/vlop-sources.git"
+    "url": "https://github.com/tvlop/vlop-sources.git"
   },
   "bugs": {
-    "url": "https://github.com/vlop-community/vlop-sources/issues"
+    "url": "https://github.com/tvlop/vlop-sources/issues"
   },
-  "homepage": "https://github.com/vlop-community/vlop-sources#readme",
+  "homepage": "https://github.com/tvlop/vlop-sources#readme",
   "engines": {
     "node": ">=14.0.0"
   }

@@ -2,13 +2,11 @@
 
 # vlop sources (⌐■_■)
 
-community sources for vlop streaming. no bs, just sources that slap (ง°ل͜°)ง
+community sources for vlop (ง°ل͜°)ง
 
 ## what's this about
 
-all the streaming sources that power vlop live here. each source is a json file with everything needed to make it work (★‿★)
-
-community can add sources, we review, everyone wins. no more waiting for us to add every provider (≧◡≦)
+All Vlop’s streaming power is here ★‿★ Each source’s a JSON with everything it needs. Community adds, we review, everyone wins ≧◡≦ No more waiting
 
 ## add your source
 
@@ -22,10 +20,10 @@ community can add sources, we review, everyone wins. no more waiting for us to a
 
 ```json
 {
-  "id": "your-source-id",
-  "name": "Your Source Name",
+  "id": "vlop-drip",
+  "name": "papavlop",
   "type": "universal",
-  "baseUrl": "https://your-source.com/embed",
+  "baseUrl": "https://vlop.drip/embed",
   "movieUrlPattern": "movie/{id}",
   "showUrlPattern": "tv/{id}/{season}/{episode}",
   "supportsMovies": true,
