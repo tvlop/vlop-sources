@@ -8,7 +8,7 @@ community sources for vlop (ง°ل͜°)ง
 
 All Vlop’s streaming power is here ★‿★ Each source’s a JSON with everything it needs. Community adds, we review, everyone wins ≧◡≦ No more waiting
 
-## add your source
+## add your source  
 
 1. fork this repo (╯✧▽✧)╯
 2. make new json in `sources/` folder
