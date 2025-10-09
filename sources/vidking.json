@@ -1,6 +1,6 @@
 {
   "id": "vidking",
-  "name": "Vidking Player",
+  "name": "Vidking",
   "type": "universal",
   "baseUrl": "https://www.vidking.net/embed",
   "movieUrlPattern": "movie/{id}",
