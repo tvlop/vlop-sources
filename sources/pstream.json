@@ -2,7 +2,7 @@
   "id": "pstream",
   "name": "pstream",
   "type": "universal",
-  "baseUrl": "https://pstream.mov/media",
+  "baseUrl": "https://iframe.pstream.mov/media",
   "urlPattern": "tmdb-{type}-{id}",
   "supportsMovies": true,
   "supportsShows": true,
