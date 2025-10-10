@@ -1,0 +1,18 @@
+{
+  "id": "papamv",
+  "name": "papamv",
+  "type": "universal",
+  "baseUrl": "https://player.embed-api.stream",
+  "movieUrlPattern": "?id={id}",
+  "showUrlPattern": "?id={id}&s={season}&e={episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 10,
+  "hasAds": true,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}
