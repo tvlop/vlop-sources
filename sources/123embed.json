@@ -1,0 +1,18 @@
+{
+  "id": "123embed",
+  "name": "123embed",
+  "type": "universal",
+  "baseUrl": "https://play.123embed.net",
+  "movieUrlPattern": "mv/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "FHD",
+  "isActive": true,
+  "priority": 10,
+  "hasAds": false,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "allowImages": true,
+  "allowScripts": true
+}
