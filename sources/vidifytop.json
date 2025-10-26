@@ -1,0 +1,19 @@
+{
+  "id": "vidifytop",
+  "name": "vidifytop",
+  "type": "universal",
+  "baseUrl": "https://player.vidify.top/embed",
+  "urlPattern": "",
+  "movieUrlPattern": "movie/{id}",
+  "showUrlPattern": "tv/{id}/{season}/{episode}",
+  "supportsMovies": true,
+  "supportsShows": true,
+  "quality": "4K",
+  "isActive": true,
+  "priority": 3,
+  "allowAllDomains": true,
+  "allowEmbeds": true,
+  "isPremium": true,
+  "allowImages": true,
+  "allowScripts": true
+}
