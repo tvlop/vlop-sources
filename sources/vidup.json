@@ -2,7 +2,7 @@
   "id": "vidup",
   "name": "vidup",
   "type": "universal",
-  "baseUrl": "https://vidup.pro",
+  "baseUrl": "https://vidup.to",
   "urlPattern": "",
   "movieUrlPattern": "movie/{id}",
   "showUrlPattern": "tv/{id}/{season}/{episode}",
